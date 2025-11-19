@@ -1,4 +1,4 @@
-## ** Part 1. Project Overview: **
+## Part 1. Project Overview: 
 This project implements a handwritten digit recognition system using the MNIST dataset.
 Two machine learning models were developed:
 1. Logistic Regression (Baseline Model)
@@ -6,8 +6,8 @@ Two machine learning models were developed:
 A Streamlit-based GUI was created to allow users to upload handwritten digit images (0–9) and receive prediction results along with confidence scores.
 
 
-## **Part 2. Repository Structure**
-### **source_code folder**
+## Part 2. Repository Structure
+### source_code folder
 source_code folder:
 │
 ├── app.py
@@ -30,7 +30,7 @@ source_code folder:
 │
 └── README.md
 
-### **GUI_executable folder**
+### GUI_executable folder
 GUI_executable folder
 │
 ├── app.py                   
@@ -43,7 +43,7 @@ GUI_executable folder
         
 
 
-## **Part 3. Running the GUI**
+## Part 3. Running the GUI
 Before running the GUI, install required packages: 
 pip install -r requirements.txt
 
@@ -51,7 +51,7 @@ Run the following command:
 streamlit run app.py
 
 
-## **Part 4. Training the Models**
+## Part 4. Training the Models
 🔹 Train the CNN model:
 Run this in VS terminal: python train_model.py
 
@@ -74,8 +74,8 @@ logistic_classification_report.txt
 
 
 
-## **Part 5. File Descriptions**
-### *** Python Scripts *** 
+## Part 5. File Descriptions
+### Python Scripts 
 File	                        Description
 app.py	                        Streamlit GUI interface
 utils.py	                    Functions for preprocessing user-uploaded images
@@ -83,12 +83,12 @@ train_model.py	                CNN model definition, training, evaluation
 logistic_baseline.py	        Logistic regression baseline model
 check_mnist.py	                Quick check for MNIST validation
 
-### *** Model Files ***
+### Model Files 
 File	                                        Description
 cnn_model.h5	                                Trained CNN model used by GUI
 cnn_metrics.txt, logistic_metrics.txt	        Model performance summaries
 
-### *** Plots ***
+### Plots 
 Image	                        Description
 confusion_matrix.png	        CNN confusion matrix
 logistic_confusion_matrix.png	Baseline confusion matrix
