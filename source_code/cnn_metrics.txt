@@ -1,0 +1,2 @@
+CNN Accuracy: 0.9931
+CNN Loss: 0.0202
