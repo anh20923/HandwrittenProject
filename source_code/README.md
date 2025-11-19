@@ -48,10 +48,14 @@ GUI_executable/
 
 
 ## Part 3. Running the GUI
-Before running the GUI, install required packages: 
+To run the Streamlit GUI correctly, follow the steps below:
+### 1. Navigate to the GUI folder
+``` cd GUI_executable ```
+
+### 2. Install required packages
 ```pip install -r requirements.txt```
 
-Run the following command: 
+### 3. Run the Streamlit app
 ```streamlit run app.py```
 
 
