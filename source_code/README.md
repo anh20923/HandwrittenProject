@@ -8,7 +8,7 @@ A Streamlit-based GUI was created to allow users to upload handwritten digit ima
 
 ## Part 2. Repository Structure
 ### source_code folder
-source_code folder:
+source_code/
 │
 ├── app.py
 ├── utils.py
@@ -31,7 +31,7 @@ source_code folder:
 └── README.md
 
 ### GUI_executable folder
-GUI_executable folder
+GUI_executable/
 │
 ├── app.py                   
 ├── utils.py
