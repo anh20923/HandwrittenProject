@@ -61,7 +61,8 @@ To run the Streamlit GUI correctly, follow the steps below:
 
 ## Part 4. Training the Models
 🔹 Train the CNN model:
-Run this in VS terminal: python train_model.py
+Run this in VS terminal: 
+``` python train_model.py ```
 
 This will generate the following files:
 cnn_model.h5
@@ -73,7 +74,8 @@ cnn_classification_report.txt
 
 
 🔹 Train Logistic Regression baseline:
-Run this in VS terminal: python logistic_baseline.py
+Run this in VS terminal: 
+``` python logistic_baseline.py ```
 
 This will generate:
 logistic_confusion_matrix.png
