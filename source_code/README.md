@@ -45,10 +45,10 @@ GUI_executable folder
 
 ## Part 3. Running the GUI
 Before running the GUI, install required packages: 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 Run the following command: 
-streamlit run app.py
+```streamlit run app.py```
 
 
 ## Part 4. Training the Models
