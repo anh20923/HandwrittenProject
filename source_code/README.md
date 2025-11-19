@@ -77,7 +77,6 @@ cnn_classification_report.txt
 ```
 
 ### 3. Train Logistic Regression baseline:
-Run this in VS terminal: 
 ``` python logistic_baseline.py ```
 
 ``` 
