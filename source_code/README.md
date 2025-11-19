@@ -86,21 +86,27 @@ logistic_classification_report.txt
 
 ## Part 5. File Descriptions
 ### Python Scripts 
+```
 File	                        Description
 app.py	                        Streamlit GUI interface
 utils.py	                    Functions for preprocessing user-uploaded images
 train_model.py	                CNN model definition, training, evaluation
 logistic_baseline.py	        Logistic regression baseline model
 check_mnist.py	                Quick check for MNIST validation
+```
 
 ### Model Files 
+```
 File	                                        Description
 cnn_model.h5	                                Trained CNN model used by GUI
 cnn_metrics.txt, logistic_metrics.txt	        Model performance summaries
+```
 
 ### Plots 
+```
 Image	                        Description
 confusion_matrix.png	        CNN confusion matrix
 logistic_confusion_matrix.png	Baseline confusion matrix
 loss_curve.png	                Training/validation loss
 metrics.png	                    Training/validation accuracy
+```
